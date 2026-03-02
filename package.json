@@ -1,0 +1,27 @@
+{
+  "name": "web-search-mcp",
+  "version": "1.0.0",
+  "description": "本地网页搜索与抓取 MCP 服务 - 无需 API Key，支持国内网络",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "web-search",
+    "web-fetch",
+    "china-network"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
